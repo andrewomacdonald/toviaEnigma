@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+#enigma {
+    height: 500px;
+    width: 500px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    color: blue;
+    cursor: pointer;
+}
+
+.passcodeDiv {
+    margin-top: 10px;
+}
+
+.myForm {
+    padding-left: 10px;
+    padding-right: 10px;
+}
