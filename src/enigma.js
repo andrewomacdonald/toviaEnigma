@@ -35,7 +35,7 @@ class Enigma extends Component {
             this.setState({[name]: value})
         };
 
-        this.actions = this.actions = [{
+        this.actions = [{
             label: "Close",
             onClick: this.handleToggle
         }];
