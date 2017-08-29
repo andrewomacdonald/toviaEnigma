@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/enigma.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
