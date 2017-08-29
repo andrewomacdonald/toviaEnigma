@@ -43,8 +43,7 @@ class Enigma extends Component {
 
     encryptionAPICAll(){
         this.handleToggle();
-        let date = this.state.date === '' ? Infinity :
-            Math.floor( Date.parse(this.state.date) / 1000);
+        let date = this.state.date === '' ? Infinity : Math.floor( Date.parse(this.state.date) / 1000);
 
         fetch('/api/sendMessageAndCode', {
             method: 'POST',
